@@ -1,0 +1,194 @@
+[
+  {
+    "tipo": "informacion",
+    "id": "D1",
+    "correo":"",
+    "titulo": "Sistema Nacional de Información Ambiental y de Recursos Naturales",
+    "link": "https://www.gob.mx/semarnat/acciones-y-programas/sistema-nacional-de-informacion-ambiental-y-de-recursos-naturales",
+    "img": "/img/sniarn.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D6",
+    "titulo": "Sistema Nacional de Áreas Naturales Protegidas",
+    "link": "https://www.gob.mx/conanp",
+    "img": "/img/conanp.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D5",
+    "correo":"",
+    "titulo": "Sistema Nacional de Información del Agua",
+    "link": "https://www.gob.mx/conagua",
+    "img": "/img/conagua.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D3",
+    "correo":"",
+    "titulo": "Sistema Nacional de Información sobre Biodiversidad",
+    "link": "https://www.gob.mx/conabio",
+    "img": "/img/conabio.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D4",
+    "correo":"",
+    "titulo": "Sistema Nacional de Información Forestal",
+    "link": "https://www.gob.mx/conafor",
+    "img": "/img/conafor.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Sistema de Información sobre el Cambio Climático",
+    "link": "https://gaia.inegi.org.mx/sicc/#:~:text=El%20Sistema%20de%20Informaci%C3%B3n%20sobre%20el%20Cambio%20Clim%C3%A1tico%20integra%2C%20actualiza,%2C%20proyectos%20de%20mitigaci%C3%B3n%2C%20vulnerabilidad%2C",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Sistema Nacional de Información de la Calidad del Aire",
+    "link": "https://sinaica.inecc.gob.mx/",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Atlas Nacional de Vulnerabilidad al Cambio Climático",
+    "link": "https://atlasvulnerabilidad.inecc.gob.mx/",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "México ante el cambio climático, sitio oficial de país",
+    "link": "https://cambioclimatico.gob.mx/",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Biblioteca Digital de cambio climático",
+    "link": "http://189.240.101.244:8080/xmlui/discover",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "El cambio climático de frente",
+    "link": "http://elcambioclimaticodefrente.inecc.gob.mx/",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Información sobre la implementación de la política climática subnacional",
+    "link": "https://cambioclimatico.gob.mx/estadosymunicipios/",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Portal de Cuencas y Cambio Climático",
+    "link": "https://placcc.inecc.gob.mx",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Portal de eficiencia energética y emisiones vehiculares Eco vehículos",
+    "link": "https://www.ecovehiculos.inecc.gob.mx/",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "informacion",
+    "id": "D8",  
+    "correo":"",
+    "titulo": "Datos Abiertos del INECC",
+    "link": "https://datos.abiertos.inecc.gob.mx/",
+    "img": "/img/inecc.png",
+    "describe": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui! Non molestias laudantium dolorem eos dolor natus? Excepturi ut quod cumque dolorem rerum ullam eligendi, vel rem dolor odit sequi."
+  },
+  {
+    "tipo": "reporteAMC",
+    "id": "incendiosForestales",
+    "id_map": 1,
+    "id_Dep":"D4",
+    "titulo": "Incendios forestales",
+    "link": "https://www.gob.mx/conafor",
+    "correo":"",
+    "direccion":"",
+    "emergencia":"",
+    "horarios":"",
+    "tituloCorto": "CONAFOR",
+    "img": "/img/bot_ter_uno.png",
+    "telefono":"800 737 00 00",
+    "icono": "/img/bot_call.png",
+    "imgbck": "/img/incendio.png",
+   "describe": "La <b>Comisión Nacional Forestal</b> exhorta a la población a reportar incendios forestales. Está disponible las 24 horas del día durante todo el año."
+  },
+  {
+    "tipo": "reporteAMC",
+    "id": "reporteCiudadano",
+    "id_map": 9,
+    "id_Dep":"D9",
+    "titulo": "Denuncia PROFEPA",
+    "tituloCorto": "PROFEPA",
+    "link": "https://www.profepa.gob.mx/innovaportal/v/1156/1/mx/haz_tu_denuncia.html",
+    "queReportar":"<p><b>Flora</b><br>Especies en peligro de extinción, destrucción, aprovechamiento, transportación, comercio, exportación, importación ilegales así como aprovechamientos no autorizados</p><p><b>Fauna</b><br>Especies en peligro de extinción, posesión, comercio, exportación, aprovechamiento de especies en veda o bajo protección especial, cacería ilegal.</p><p><b>Forestal</b><br>Tala, incumplimiento en las condicionantes de los aprovechamientos forestales, transformación, transportación, cambios de uso de suelo, elaboración de carbón no autorizados.</p><p><b>Recursos Pesqueros y Marinos</b><br>Especies marinas en veda permanente o sujetas a protección especial, aprovechamiento no autorizado, uso de instrumentos, artes o equipo prohibido, en áreas naturales protegidas, traslado, captura, incumplimiento en aprovechamientos autorizados.</p><p><b>Ordenamiento Ecológico e Impacto Ambiental</b><br>Aprovechamientos forestales, desarrollo de inmobiliarios que afecten ecosistemas costeros, obras y actividades en humedales, manglares, en áreas naturales protegidas, obras hidráulicas, vías generales de comunicación en zonas de competencia federal, y demás señaladas en el artículo 28 de la Ley General del Equilibrio Ecológico y la Protección al Ambiente.</p><p><b>Zona Federal Marítimo Terrestre</b><br>Obras y actividades no autorizadas en playas, sistemas costeros, humedales, manglares.</p><p><b>Residuos peligrosos</b>(aquellos que reunen alguna característica de corrosividad, reactividad, explosividad toxicidad, inflamabilidad y biológico infecciosos)</b><br>Manejo inadecuado durante la generación, tratamiento, transporte, disposición final.</p><p><b>Emisiones a la Atmósfera</b><br>Provenientes de fuentes fijas de jurisdicción federal como las industrias, química, petroquímica, de pinturas y tintas, de celulosa y papel, metalúrgica, asbesto, cementera, calera, manejo de sustancias peligrosas</p><p><b>Contaminación de suelo por derrames</b><br>Depósito de residuos peligrosos, biológico infecciosos, descarga de aguas residuales a cuerpos de agua nacionales.</p>",
+    "correo":"denuncias@profepa.gob.mx",
+    "direccion":"Félix Cuevas 6, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX.",
+    "requisitos":"<p>1.- Nombre, domicilio, número telefónico, si lo tienes, así como en su caso correo electrónico.</p><p>2.- Señalar la problemática denunciada.</p><p>3.- Señalar con la mayor precisión posible los datos que permitan localizar al presunto infractor o la fuente contaminante.</p><p>4. De ser posible puedes agregar fotografías, videos o documentos.</p><p>5.- Puedes solicitar que guardemos el secreto de tu identidad.</p><p>6.- También puedes solicitar que te notifiquemos a tu cuenta de correo electrónico.</p>",
+    "telefono":"800 776 33 72",
+    "emergencia":"",
+    "horarios":"",
+    "icono": "/img/bot_call.png",
+    "img": "/img/bot_ter_dos.png",
+    "imgbck": "/img/profepad.png",
+   "describe": "Realizar una denuncia ante la <b>Procuraduría Federal de Protección al Ambiente</b>."
+  },
+  {
+    "tipo": "reporteAMC",
+    "id": "denunciaPopular",
+    "id_map": 2,
+    "id_Dep":"D2",
+    "titulo": "Denuncia ASEA",
+    "tituloCorto": "ASEA",
+    "link": "https://denunciaspopulares.asea.gob.mx/signup/",
+    "queReportar":"<p>Cualquier <b>hecho, acto u omisión</b> que produzca o pueda producir desequilibrio ecológico o daños al ambiente o a los recursos naturales ocasionado por el <b>derrame de hidrocarburos, ductos o gasolineras, entre otras materias relativas a las actividades del sector hidrocarburos</b>.</p>",
+    "correo":"",
+    "direccion":"Boulevard Adolfo Ruiz Cortines 4209 (Periférico Sur) Jardines en la Montaña 14210 Ciudad de México",
+    "requisitos":"<p>1.- El nombre o razón social, domicilio, teléfono si lo tiene, del denunciante y, en su caso, de su representante legal.<br><br> 2.- Los actos, hechos u omisiones denunciados.<br><br> 3.- Los datos que permitan identificar al presunto infractor o localizar la fuente contaminante.<br><br>4.- Las pruebas que en su caso ofrezca el denunciante.</p>",
+    "telefono":"55 91 26 01 00",
+    "emergencia":"55 91 26 01 11",
+    "horarios":"Recepción de trámites: Lunes a jueves 10 am a 2 pm.<br>Notificaciones presenciales (ventanilla): Lunes a jueves 10 am a 2 pm.<br>Notificaciones vía correo electrónico: Lunes a viernes 9 am a 6 pm.",
+    "icono": "/img/bot_call.png",
+    "img": "/img/bot_ter_dos.png",
+    "imgbck": "/img/asead.png",
+   "describe": "Realizar una denuncia ante la <b>Agencia de Seguridad, Energía y Ambiente.</b>."
+  }
+]

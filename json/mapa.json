@@ -1,0 +1,134 @@
+[
+  {
+    "id": 4,
+    "Nombre": "Comisión Nacional Forestal, Zapopan, Jalisco.",
+    "logo": "/img/conafor_location.png",
+    "Long": -103.4539102,
+    "Lat": 20.6976832,
+    "Entidad": "Jalisco",
+    "Municipio": "Zapopan",
+    "Colonia": "Av. Perif. Pte. Manuel Gómez Morin 5360, San Juan de Ocotán, 45019 Zapopan, Jal.",
+    "Claves": "conafor,Zapopan,jalisco, comisión Nacional Forestal"
+  },
+  {
+    "id": 31,
+    "Nombre": "Comisión Nacional del Agua, Veracruz, Veracruz.",
+    "logo": "/img/conagua_location.png",
+    "Long": -95.1831062,
+    "Lat": 18.161073,
+    "Entidad": "Veracruz",
+    "Municipio": "Hueyapan de Ocampo",
+    "Colonia": "Del Golfo 4, Benito Juarez, 95850.",
+    "Claves": "conagua,veracruz, Hueyapan de Ocampo"
+  },
+  {
+    "id": 5,
+    "Nombre": "Comisión Nacional del Agua, CDMX.",
+    "logo": "/img/conagua_location.png",
+    "Long": -99.1893361,
+    "Lat": 19.3373,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Ciudad de México",
+    "Colonia": "Av. Insurgentes Sur 2416, Copilco el Bajo, Coyoacán, 04340 Ciudad de México, CDMX",
+    "Claves": "conagua, CDMX, Comisión Nacional del Agua"
+  },
+  {
+    "id": 11,
+    "Nombre": "Secretaría de Medio Ambiente y Recursos Naturales, Merida, Yucatán.",
+    "logo": "/img/location.png",
+    "Long": -89.6579996,
+    "Lat": 20.9845857,
+    "Entidad": "Yucatán",
+    "Municipio": "Mérida",
+    "Colonia": "C. 59ᴮ 238, Yucalpetén, 97238.",
+    "Claves": "semarnat yucatan, Yucatan, Yucatán, Mérida,SEMARNAT, Merida "
+  },
+  {
+    "id": 1,
+    "Nombre": "Secretaría de Medio Ambiente y Recursos Naturales, CDMX",
+    "logo": "/img/location.png",
+    "Long":-99.1802361,
+    "Lat": 19.4368000,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Alcaldía Miguel Hidalgo",
+    "Colonia": "Ejército Nacional 223 Anáhuac I sección 11320 Ciudad de México",
+    "Claves": "Centrales, semarnat, contacto ciudadano, sector ambiental"
+  },
+  {
+    "id": 9,
+    "Nombre": "Procuraduría Federal de Protección al Ambiente, CDMX.",
+    "logo": "/img/profepa_location.png",
+    "Long": -99.1784915,
+    "Lat": 19.3739113,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Ciudad de Mexico",
+    "Colonia": "Félix Cuevas 6, Tlacoquemecatl del Valle, Benito Juárez, 03200 Ciudad de México, CDMX",
+    "Claves": "profepa, Procuraduría Federal de Protección al Ambiente, CDMX"
+  },
+  {
+    "id": 7,
+    "Nombre": "Instituto Mexicano de Tecnología del Agua, Morelos.",
+    "logo": "/img/imta_location.png",
+    "Long": -99.1589388,
+    "Lat": 18.8850206,
+    "Entidad": "Morelos",
+    "Municipio": "Jiutepec",
+    "Colonia": "Blvd. Paseo Cuauhnáhuac 8532, Progreso, 62550 Jiutepec, Mor.",
+    "Claves": "Semarnat, medio Ambiente, IMTA, Tecnología, tecnologia, agua Instituto"
+  },
+  {
+    "id": 8,
+    "Nombre": "Instituto Nacional de Ecología y Cambio Climático, CDMX.",
+    "logo": "/img/inecc_location.png",
+    "Long":-99.205803,
+    "Lat": 19.3038333,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Alcaldía Tlalpan",
+    "Colonia": "Blvd. Adolfo Ruíz Cortines 4209 Jardines en la Montaña 14210 Ciudad de México",
+    "Claves": "Semarnat, medio Ambiente, Instituto Nacional de Ecología y Cambio Climático, CDMX."
+  },
+  {
+    "id": 88,
+    "Nombre": "Laboratorios INECC, CDMX.",
+    "logo": "/img/inecc_location.png",
+    "Long":-99.1759263,
+    "Lat":19.3515995,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Alcaldía Coyoacán",
+    "Colonia": "Av. Progreso 3, Del Carmen, Coyoacán, 04100 Ciudad de México, CDMX",
+    "Claves": "Semarnat, medio Ambiente, Instituto Nacional de Ecología y Cambio Climático, CDMX, INECC, labortatorios"
+  },
+  {
+    "id": 2,
+    "Nombre": "Agencia de Seguridad, Energía y Ambiente, CDMX.",
+    "logo": "/img/asea_location.png",
+    "Long":-99.205803,
+    "Lat": 19.3038333,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Alcaldía Tlalpan",
+    "Colonia": "Boulevard Adolfo Ruiz Cortines 4209 (Periférico Sur) Jardines en la Montaña 14210 Ciudad de México",
+    "Claves": "Semarnat, medio Ambiente, Agencia de Seguridad, Energía y Ambiente, CDMX."
+  },
+  {
+    "id": 3,
+    "Nombre": "Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CDMX.",
+    "logo": "/img/conabio_location.png",
+    "Long":-99.1862316,
+    "Lat": 19.301214,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Alcaldía Tlalpan",
+    "Colonia": "Liga Periférico-Insurgentes Sur No. 4903, Parques del Pedregal, 14010 Tlalpan, CDMX",
+    "Claves": "Semarnat,Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CDMX."
+  },
+  {
+    "id": 6,
+    "Nombre": "Comisión Nacional de Áreas Naturales Protegidas, CDMX.",
+    "logo": "/img/conanp_location.png",
+    "Long":-99.1802361,
+    "Lat": 19.4368000,
+    "Entidad": "Ciudad de México",
+    "Municipio": "Alcaldía Miguel Hidalgo",
+    "Colonia": "Ejército Nacional 223 Anáhuac I sección 11320 Ciudad de México",
+    "Claves": "Comisión Nacional de Áreas Naturales Protegidas, CDMX, Unidad Responsable"
+  }
+]

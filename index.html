@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+  <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+  <title>Tramites</title>
+
+  <!-- CSS only -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/bulma.css" />
+
+  
+  <!--Rutas PAGE JS-->
+  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/placeholder-loading/dist/css/placeholder-loading.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  
+
+  <!--TOASTTR-->
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+
+
+
+  <link rel="stylesheet" href="css/index.css" />
+  <!--JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/taffydb/2.7.3/taffy-min.js"></script>
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/css/uikit.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.13.7/dist/js/uikit-icons.min.js"></script>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+
+  <!--ICONS GOOGLE-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+      document.addEventListener("deviceready", onDeviceReady, false); 
+
+
+    });
+
+  
+
+    function onDeviceReady() {
+
+      StatusBar.overlaysWebView(false);
+      StatusBar.backgroundColorByHexString("#fff"); // => #333333
+
+      StatusBar.styleLightContent();
+      console.log(statusbar);
+
+    }
+  /*<feature name="StatusBar">
+          <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+  
+      </feature>*/
+  </script>
+  <!--Comienza MAPA-->
+  <script src="https://js.arcgis.com/4.22/"></script>
+  <script>
+   
+
+  </script>
+  <!--Termina Mapa-->
+</head>
+<!--NAV-->
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="material-icons md-light md-36 regresa" id="regresaBCK" onclick="history.go(-1)">&#xe5c4;</a>
+    <a class="navbar-item" href="/" id="tituloNav">MI MEDIO AMBIENTE </a>
+
+    <!--<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active');">-->
+
+    <a role="button" id="btnFiltro" aria-label="menu" href="#offcanvas-slide" class="uk-button-default navbar-burger"
+      uk-toggle style="display: none">
+      <span><i class="fa fa-filter" aria-hidden="false"></i></span>
+    </a>
+  </div>
+</nav>
+<!--FIN NAV-->
+
+<nav class="navigation-bar">
+  <ul class="list-items">
+    <span class="pointer"></span>
+    <li class="item active">
+      <a class="link" href="/">
+        <span class="material-icons md-light md-36">&#xe88a;</span>
+      </a>
+    </li>
+    <li class="item">
+      <a class="link" href="/buscar">
+        <span class="material-icons md-light md-36">&#xe8b6;</span>
+      </a>
+    </li>
+    <li class="item">
+      <a class="link" href="/mapa">
+        <span class="material-icons md-light md-36">&#xe0c8;</span>
+      </a>
+    </li>
+    <li class="item">
+      <a class="link" href="/info">
+        <span class="material-icons md-light md-36">&#xe94c;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<div id="offcanvas-slide" uk-offcanvas>
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav uk-nav-default">
+      <li class="uk-active">
+        <div class="tags" id="historial">
+        </div>
+      </li><br>
+      <p style="color: black;">Filtrar por:</p>
+      <br>
+      <div class="columns is-mobile">
+        <div class="column filtros button" id="UR">DEPENDENCIA</div>
+        <div class="column filtros button" id="tema">TEMA</div>
+      </div>
+      <div class="is-mobile" id="filtrosDiv">
+
+      </div>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+<body style="display: none;">
+  <div id="cargando"></div>
+  <!-- Preloader Start 
+     <div id="main-preloader" class="main-preloader semi-dark-background">
+      <div class="main-preloader-inner center">
+
+          <span class="preloader-percentage center ">
+            <div class="is-loading loader-wrapper">
+              <div class="container is-4by3">
+                <img class="imgPrincipal" src="img/logos.png" alt="" id="splash" />
+              </div>
+              
+            </div>
+          </span>
+          <div class="">
+              <div class="preloader-bar">
+                <div class="splash container"><br>
+                  <p class="is-small">
+                    Copyright 2022 SEMARNAT<BR>
+                    Av. Ejército Nacional 223,<BR>
+                    Col. Anáhuac l, Ciudad de México. C.P. 11320
+                  </p>
+                </div>
+              </div> Percentage Precess Bar 
+          </div>
+
+      </div>
+  </div>
+Preloader Start -->
+  <!--SPLASH-->
+  <div class="" style="overflow: hidden;">
+    <div class="loader-wrapper" style="overflow: hidden;">
+      <div class="is-loading">
+        <div class="container is-4by3">
+          <img class="imgPrincipal" src="img/logos.png" alt="" id="splash" />
+        </div>
+
+      </div>
+      <div class="splash"><br>
+        <p class="content is-small">  
+          Copyright 2022 SEMARNAT<BR>
+          Av. Ejército Nacional 223,<BR>
+          Col. Anáhuac l, Ciudad de México. C.P. 11320
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--FIN SPLASH-->
+  <section class="section" id="menu">
+    <div class="container is-hidden">
+      <!--<div class="is-full" id="click">
+        <a href="/atribuciones"><div class="row btnMPrin" id="atribuciones"><div class="col-3 is-justify-content-center"><img class="imgPrincipalhv" src="img/pri_uno.png"></div><div class="col-9">Atribuiciones en materia ambiental</div></div></a>
+        <a href="/dependencias"><div class="row  btnMPrin" id="UR"><div class="col-3 is-justify-content-center"><img class="imgPrincipalhv" src="img/pri_dos.png"></div><div class="col-9 centered">Sector ambiental</div></div></a>
+        <a href="/temas"><div class="row btnMPrin is-flex-tablet-only" id="CPT"><div class="col-3 is-justify-content-center"><img class="imgPrincipalhv" src="img/pri_tres.png"></div><div class="col-9 centered">Temas</div></div></a>
+        <a href="/apoyos"><div class="row btnMPrin" id="ASA"><div class="col-3 is-justify-content-center"><img class="imgPrincipalhv" src="img/pri_cuatro.png"></div><div class="col-9 centered">Apoyos del sector</div></div></a>
+        <a href="/servicios"><div class="row btnMPrin" id="ASA"><div class="col-3 is-justify-content-center"><img class="imgPrincipalhv" src="img/pri_cinco.png"></div><div class="col-9 centered">Servicios del sector</div></div></a>
+         <a href="/tramites"><div class="row btnMPrin" id="tramite"><div class="col-3 is-justify-content-center"><img  class="imgPrincipalhv" src="img/pri_cinco.png"></div><div class="col-9 centered">Trámites del sector</div></div></a>
+         <a href="/reporte"><div class="row btnMPrin" id="RAC"><div class="col-3 is-justify-content-center"><img class="imgPrincipalhv" src="img/pri_seis.png"></div><div class="col-9 ">Reporte ambiental ciudadano</div></div></a>
+         <a href="/informacion"><div class="row btnMPrin" id="INF"><div class="col-3 is-justify-content-center"><img class="imgPrincipalhv" src="img/pri_siete.png"></div><div class="col-9 ">Información ambiental</div></div></a>
+        </div>-->
+    </div>
+  </section>
+  <a href="#offcanvas-slide" id="floats" uk-toggle class="float">
+
+    <span class="material-icons md-light md-36 my-float">&#xef4f;</span>
+  </a>
+
+  <div class="tablaDatosss" id="tablaDatos" width="100%"></div>
+
+  </div>
+
+  <div id="optionsDiv2">
+    <div id="dvBusca">
+      <div class="control has-icons-left has-icons-right">
+        <input class="input is-rounded is-medium" type="search" ID="txtBuscaDicc" placeholder="Buscar">
+        <span class="icon is-left">
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+    </div>
+
+  </div>
+  <div class="columns" id="popupPoint">
+    <div class="column" style="text-align: end;">
+      <span class="icon is-rigth" id="cierraPop">
+        <i class="fa fa-times"></i>
+      </span>
+    </div>
+    <div class="column" id="llenaPopup">
+
+    </div>
+  </div>
+  </div>
+  <div id="viewDiv"></div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+ 
+
+  <!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+Modal 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contenido WEB</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-1x1">
+          <iframe src="https://catalogonacional.gob.mx/FichaTramite?traHomoclave=ASEA-04-004-A" scrolling="yes" frameborder="no" framespacing="0" title="YouTube video" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+ <!--<script src="js/cordova.js"></script>-->
+</body>
+
+</html>
