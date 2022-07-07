@@ -24,12 +24,12 @@ let jsonMapa;
 
 //SPLASH
 $(document).ready(function () {
-  var anchor = location;
-  var result = anchor.pathname;
-
-  if (result != "/") {
-    location.pathname = "/";
-  }
+// var anchor = location;
+// var result = anchor.pathname;
+//
+// if (result != "/") {
+//   location.pathname = "/";
+// }
   
   //$('#exampleModal').modal('show');
 
