@@ -1307,7 +1307,7 @@ function mapa(ctx) {
   ocultarRegresa();
   $("#menu").html("");
   document.getElementById("menu").style.display = "none";
-  $("#viewDiv").css("height", "100%");
+  $("#viewDiv").css("height", "100vh");
 
   document.getElementById("tituloNav").innerHTML = "MAPA";
 
@@ -1332,7 +1332,7 @@ function mapa(ctx) {
     Locate
   ) => {
     const map = new Map({
-      basemap: "topo",
+      basemap: "topo-vector",
     });
 
     const view = new MapView({
@@ -1670,7 +1670,7 @@ function mapaDireccion(ctx) {
   //alert(ctx.params.direccion)
   // $("#menu").html("");
   document.getElementById("menu").style.display = "none";
-  $("#viewDiv").css("height", "100%");
+  $("#viewDiv").css("height", "100vh");
   //document.getElementById("txtBuscaDicc").value= ctx.params.direccion;
 
   document.getElementById("tituloNav").innerHTML = "MAPA";
@@ -1695,7 +1695,7 @@ function mapaDireccion(ctx) {
     Locate
   ) => {
     const map = new Map({
-      basemap: "topo",
+      basemap: "topo-vector",
     });
 
     const view = new MapView({
@@ -1728,7 +1728,7 @@ function mapaDireccion(ctx) {
 
     // Add the locate widget to the top left corner of the view
     view.ui.add(locateBtn, {
-      position: "bottom-right",
+      position: "top-right",
     });
 
     view.ui.remove("zoom");
@@ -2585,8 +2585,8 @@ function ocultarMapa(params) {
 }
 
 function muestraMapa(params) {
-  document.getElementById("viewDiv").style.paddingBottom = "6.5em";
-  document.getElementById("viewDiv").style.marginTop = "3em";
+  //document.getElementById("viewDiv").style.paddingBottom = "6.5em";
+  //document.getElementById("viewDiv").style.marginTop = "3em";
   document.getElementById("optionsDiv2").style.display = "block";
   document.getElementById("tablaDatos").style.display = "block";
 }
